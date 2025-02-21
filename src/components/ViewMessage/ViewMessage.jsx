@@ -5,7 +5,7 @@ import useJsonFetch from "../useJsonFetch";
 
 function ViewMessage( {url} ) {
   let {id} = useParams();
-  const {data, loading, error} = useJsonFetch(`${url}/posts/${id}`, {method: 'GET'} );
+  const {data} = useJsonFetch(`${url}/posts/${id}`, {method: 'GET'} );
   return (
     <>
       {data && <Message url={url} message={data.post} view={true}/>}

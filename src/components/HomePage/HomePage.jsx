@@ -7,7 +7,7 @@ import useJsonFetch from "../useJsonFetch";
 
 function HomePage( {url} ) {
 
-  const {data, loading, error} = useJsonFetch(url + '/posts', {method : 'GET'});
+  const {data} = useJsonFetch(url + '/posts', {method : 'GET'});
   const navigate = useNavigate();
   return (
     <div className="homepage">
