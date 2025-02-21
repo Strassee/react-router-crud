@@ -1,7 +1,5 @@
 ![CI](https://github.com/Strassee/react-router-crud/actions/workflows/web.yml/badge.svg)
 
-[On github Pages](https://strassee.github.io/react-router-crud/)
-
 CRUD
 ===
 
