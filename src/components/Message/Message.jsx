@@ -74,7 +74,7 @@ function Message( {url, message, view} ) {
         </div>
       </div>
       <div className="message-author">
-        <div className="message-author-img" ><img src={avatar} key={message['id']} /></div>
+        <div className="message-author-img" ><img src={avatar} key={message['id']} alt="avatar"/></div>
         <div className="message-author-name">Evgeniy Filkin</div>
       </div>
       {!editMessage && <>

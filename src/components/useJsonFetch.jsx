@@ -37,7 +37,7 @@ export default function useJsonFetch(url, opt) {
       }
     }
     fetchData();
-  }, [url]);
+  }, [url, opt]);
 
   return {data, loading, error};
 };
